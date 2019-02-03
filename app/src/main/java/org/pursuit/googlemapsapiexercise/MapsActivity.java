@@ -71,7 +71,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             if (address != null) {
                 Address location = address.get(0);
                 p1 = new LatLng(location.getLatitude(), location.getLongitude());
-                mMap.addMarker(new MarkerOptions().position(p1).title("Marker in Astoria - Neptune Diner").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_airplane)));
+                mMap.addMarker(new MarkerOptions().position(p1).title("Marker in Di").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_airplane)));
             }
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -105,7 +105,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             if (address3 != null) {
                 Address location = address3.get(0);
                 p3 = new LatLng(location.getLatitude(), location.getLongitude());
-                mMap.addMarker(new MarkerOptions().position(p3).title("Marker in Astoria - Neptune Diner").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_hotel)));
+                mMap.addMarker(new MarkerOptions().position(p3).title("Marker in Harrahs Hotel AC").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_hotel)));
             }
         } catch (IOException ex) {
             ex.printStackTrace();
